@@ -1,0 +1,46 @@
+{    "info":
+[
+        {
+            "bookInfo": {
+                "title": "test1",
+                "description": "this is the new book index1",
+                "isbn": 1,
+                "pages": 90,
+                "price": 12,
+                "authorFirstName": "maya",
+                "authorLastName": "maya"
+            },
+            "message": "the book has been added successfully",
+            "status": 201,
+            "description":"should add a new book successfully"
+        },
+        {
+            "bookInfo": {
+                "title": "test1",
+                "description": "this is the new book index1",
+                "isbn": 1,
+                "pages": 90,
+                "price": 12,
+                "authorFirstName": "maya",
+                "authorLastName": "maya"
+            },
+            "message": "the book has been added up",
+            "status": 201,
+            "description":"should give a message that the book has been added up"
+        },
+        {
+            "bookInfo": {
+                "title": "test2",
+                "description": "this is the new book index2",
+                "isbn": 2,
+                "pages": 90,
+                "price": 12,
+                "authorFirstName": "maya",
+                "authorLastName": "maya"
+            },
+            "message": "the book has been added successfully",
+            "status": 201,
+            "description":"should add a new book successfully"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "testInfo":[
+        {
+            "message":"the orders are here",
+            "statusCode":200,
+            "method":"GET",
+            "url":"/orders",
+            "description":"should give a success status that all the orders are as it supposed to be"
+        },
+        {
+            "message":"the user has no order",
+            "statusCode":404,
+            "method":"GET",
+            "url":"/orders",
+            "description":"should give a fail status that the user has no orders"
+        }
+        
+    ]
+}
