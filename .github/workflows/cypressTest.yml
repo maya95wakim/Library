@@ -14,5 +14,7 @@ jobs:
                 node-version: '20'
          - name: install all depandancies
            run: npm ci
+         - name: start the app
+           run: npm start
          - name: Start the test command
            run: npx cypress run
