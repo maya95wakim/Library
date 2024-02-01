@@ -15,4 +15,4 @@ jobs:
          - name: install all depandancies
            run: npm ci
          - name: Start the test command
-           run: npm cypress run
+           run: npx cypress run
