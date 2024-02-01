@@ -1,0 +1,20 @@
+name: Run Cypress test
+on: 
+    push:
+        branches: 'master'
+jobs:
+    test:
+        runs-on: macos-13
+        steps:
+         - name: Get code
+           uses: actions/checkout@v4
+         - name: Install NodeJs
+           uses: actions/setup-node@v4
+           with:
+                node-version: '20'
+         - name: install all depandancies
+           run: npm ci
+         - name: run the app
+           run: npm start
+         - name: Start the test command
+           run: npm cypress run
